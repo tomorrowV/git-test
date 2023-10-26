@@ -8,4 +8,9 @@ class Account {
             this.balance += amount;
         }
     }
+    withdraw(amount) {
+        if (amount > 0 && amount <= this.balance) {
+            this.balance -= amount;
+        }
+    }
 }
