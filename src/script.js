@@ -13,4 +13,7 @@ class Account {
             this.balance -= amount;
         }
     }
+    getBalance() {
+        return this.balance;
+    }
 }
